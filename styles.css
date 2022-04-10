@@ -66,10 +66,24 @@ header > h1{
 }
 
 .choices{
-    margin: 0.5rem 0; /*margin top and bot of 0.5rem left and right 0 */
+    margin-top: 2rem;
     text-align: center;
 }
 
 .choice{
     display: inline-block;
+    margin: 0 3rem; /* top bot 0 and left and right 3rem */
+}
+
+/*style for hovering mouse */
+.choice:hover{
+    cursor: pointer;
+}
+
+#action-message{
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 2rem;
+    margin-top: 1.25rem;
 }
