@@ -31,21 +31,23 @@ function convertToUppercase(letter){
  * function that increase score for user in case it wins
  */
 function win(userChoice, computerChoice){ 
-    userScore++; // increase user score variable
+    userScore++; // increase userScore variable
     userScore_span.innerHTML = userScore; //saves variable userScore_span in html the value of userScore in javascript
     computerScore_span.innerHTML = computerScore; //saves variable computerScore_span in html the value of computerScore in javascript
-    const smallUserWord = "user".fontsize(3);
-    const smallcompWord = "comp".fontsize(3);
-    result_p.innerHTML = ` ${convertToUppercase(userChoice)} ${smallUserWord} beats ${convertToUppercase(computerChoice)}${smallcompWord}. You win!`;
+    result_p.innerHTML = ` ${convertToUppercase(userChoice)} beats ${convertToUppercase(computerChoice)} . You win!`;
 
 }
 
-function lose(){
-    
+function lose(userChoice, computerChoice){
+    computerScore++; // increase computerScore variable
+    userScore_span.innerHTML = userScore; //saves variable userScore_span in html the value of userScore in javascript
+    computerScore_span.innerHTML = computerScore; //saves variable computerScore_span in html the value of computerScore in javascript
+    result_p.innerHTML = ` ${convertToUppercase(userChoice)} loses to ${convertToUppercase(computerChoice)} . You lost!`;
 }
 
-function draw(){
-    console.log("DRAW");
+function draw(userChoice, computerChoice){
+   
+    result_p.innerHTML = ` ${convertToUppercase(userChoice)} equals ${convertToUppercase(computerChoice)} . It's a draw`;
 }
 /**
  * function that saves the getComputerChoice return in a variable, and it select who wins, lose or draw depending the case
