@@ -44,14 +44,14 @@ header > h1{
 #user-label{
     position: absolute;
     top: 1.75rem;
-    left: -1.56rem;
+    left: -10rem;
 
 }
 
 #computer-label{
     position: absolute;
     top: 1.75rem;
-    right: -6rem;
+    right: -14rem;
 
 }
 
