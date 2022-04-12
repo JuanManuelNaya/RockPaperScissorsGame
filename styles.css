@@ -9,11 +9,18 @@
 body{
     background-color:#759EF4 ;
     font-family: Roboto, sans-serif;
+    width: 100%;
 }
 
+/*header */
+
 header{
+    top:0;
+    position: fixed;
+    width: inherit;
     background: #FFFFFF;
-    padding: 1.25 rem;
+    height: 3.125rem;
+    padding-bottom: 2rem;
 }
 
 header > h1{
@@ -22,37 +29,47 @@ header > h1{
     font-family: Roboto,sans-serif;
 }
 
+/* footer */
+footer{
+    bottom:0;
+    position: fixed;
+    width: inherit;
+    background: #FFFFFF;
+    height: 3.125rem;
+}
+footer > h2{
+    color: #24272e;
+    text-align: center;
+    font-family: Roboto,sans-serif;
+    
+}
 .score-board{
-    margin: 1.25rem auto; /* top and bottom 1.25rem and left and right auto*/
+    margin: 2rem auto; /* top and bottom 1.25rem and left and right auto*/
     border: 0.18rem solid #FFFFFF;
     border-radius: 0.25rem;
     text-align: center;
-    width: 15rem;
+    width: 12rem; /*15 rem */
     color:#FFFFFF;
     font-size: 2.87rem;
     padding: 0.93rem 1.25rem;
-    position: relative;
 }
 
 .badge{
     background: #e2584d;
     color:#FFFFFF;
     font-size: 2rem;
-    padding: 0.125rem 0.625rem; /*top and bot 0.125rem and left and right 0.625rem */
+    margin-left: auto;
+   /* padding: 0.125rem 0.625rem; top and bot 0.125rem and left and right 0.625rem */
 }
 
 #user-label{
-    position: absolute;
-    top: 1.75rem;
-    left: -10rem;
+
+    display: inline-block;
 
 }
 
 #computer-label{
-    position: absolute;
-    top: 1.75rem;
-    right: -14rem;
-
+    display: inline-block;
 }
 
 .result{
@@ -80,10 +97,3 @@ header > h1{
     cursor: pointer;
 }
 
-#action-message{
-    text-align: center;
-    color: #FFFFFF;
-    font-weight: bold;
-    font-size: 2rem;
-    margin-top: 1.25rem;
-}
