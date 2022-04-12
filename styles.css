@@ -44,14 +44,14 @@ footer > h2{
     
 }
 .score-board{
-    margin: 2rem auto; /* top and bottom 1.25rem and left and right auto*/
+    margin: 4rem auto 1rem; /* top and bottom 4rem  and left and right auto and bottom 1rem*/
     border: 0.18rem solid #FFFFFF;
     border-radius: 0.25rem;
     text-align: center;
-    width: 12rem; /*15 rem */
+    width: 12rem; 
     color:#FFFFFF;
-    font-size: 2.87rem;
-    padding: 0.93rem 1.25rem;
+    font-size: 2.5rem;
+    padding: 0.5rem 1.25rem;
 }
 
 .badge{
