@@ -35,7 +35,7 @@ function win(userChoice, computerChoice){
     userScore_span.innerHTML = userScore; //saves variable userScore_span in html the value of userScore in javascript
     computerScore_span.innerHTML = computerScore; //saves variable computerScore_span in html the value of computerScore in javascript
     result_p.innerHTML = ` ${convertToUppercase(userChoice)} beats ${convertToUppercase(computerChoice)} . You win!`;
-
+    
 }
 
 function lose(userChoice, computerChoice){
