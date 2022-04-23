@@ -8,7 +8,12 @@
 
 2. ## User Stories
 
-* As a user I will read the tile in the header that says "Play Rock Paper Scissors against our Robot!" I will look at the game board with my score vs the robot score. I will read the rules on the footer, then make my move by selecting one of the three images rock paper or scissors. I will see a message after my move telling me if it is a win, lose or draw. The score will be updated for each round.
+* As a user, I want to play a game.
+* As a user, I want to send some feedback to the creators of the game.
+* As a user, I want a confirmation that I won.
+* As a user, I want a confirmation that I lost.
+* As a user, I want a confirmation that the game was a draw.
+
 
 3. ## Features
 
