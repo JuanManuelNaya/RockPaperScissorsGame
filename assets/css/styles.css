@@ -35,7 +35,7 @@ footer{
     height: 3.125rem;
 }
 
-footer > ul{
+.footer-rules{
     color: #24272e;
     text-align: left;
     font-family: Roboto,sans-serif;
