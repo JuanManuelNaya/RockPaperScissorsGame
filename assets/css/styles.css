@@ -85,6 +85,23 @@ footer > h4{
     margin: 0 3rem; /* top bot 0 and left and right 3rem */
 }
 
+/*social media style */
+.social-media{
+    height: 9.37rem;
+}
+
+.social-media > li{
+    display: inline;
+    
+}
+.social-media i{
+    font-size: 160%;
+    text-align: left;
+    margin: 1%;
+    padding: 1%;
+    color: #202020;
+}
+
 /*style for hovering mouse */
 .choice:hover{
     cursor: pointer;
