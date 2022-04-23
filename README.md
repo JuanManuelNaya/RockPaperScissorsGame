@@ -4,7 +4,7 @@
 
 * The Play Rock Paper Scissors against our Robot!, is a website that users can use to play a game of rock paper scissors, the purpose can be just for fun.
 
-![Responsive](/images/responsive.JPG)
+![Responsive](/assets/docs/responsive.JPG)
 
 2. ## User Stories
 
@@ -14,7 +14,7 @@
 
 * **Header**
 
-![Header](/images/header.JPG)
+![Header](/assets/docs/header.JPG)
 
 * The header presents the website with the title "Play Rock Paper Scissors against our Robot!" , wich explain very clearly the purpose of the website.
 * The title blackground contrast well against the font color making it very easy to read.
@@ -22,7 +22,7 @@
 
 * **Score Board**
 
-![ScoreBoard](/images/score-board.JPG)
+![ScoreBoard](/assets/docs/score-board.JPG)
 
 * This section will show the score of the user vs the robot, it will update in every single round.
 * The background color contraste with the font color make in it very easy to read.
@@ -30,7 +30,7 @@
 
 * **Result**
 
-![Result](/images/Result.JPG)
+![Result](/assets/docs/Result.JPG)
 
 * This result section, initially will say "Make your move".
 *  will update in each round depending on the result saying the following messages:
@@ -49,7 +49,7 @@
 
 * **GameOptions**
 
-![GameOptions](/images/GameOptions.JPG)
+![GameOptions](/assets/docs/GameOptions.JPG)
 
 * This sections consist of three round images in the shape of button.
 * The user can chose his move between rock, paper or scissors.
@@ -57,7 +57,7 @@
 
 * **Footer**
 
-![footer](/images/footer.JPG)
+![footer](/assets/docs/footer.JPG)
 
 * This section has the rules of the game wich area "Rock blunts Scissors | Paper covers Rock | Scissors cut Pappe".
 * The background color contrast with the font color make in it very easy to read.
@@ -119,7 +119,7 @@ after:
 -Accessibility
     -I confirm that the colors and fonts chosen are easy to read and accessible by running it through lighthouse in dev tools
 
-![Accesibility](/images/Accesibility.JPG)
+![Accesibility](/assets/docs/Accesibility.JPG)
 
 11. ## Deployment
  
