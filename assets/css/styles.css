@@ -37,16 +37,17 @@ footer{
 
 footer > h2{
     color: #24272e;
-    text-align: center;
+    text-align: left;
     font-family: Roboto,sans-serif;
     
 }
 
 footer > h4{
     color: #24272e;
-    text-align: center;
+    text-align: left;
     font-family: Roboto,sans-serif;
 }
+
 .score-board{
     margin: 4rem auto 1rem; /* top and bottom 4rem  and left and right auto and bottom 1rem*/
     border: 0.5rem solid #FFFFFF;
@@ -83,23 +84,6 @@ footer > h4{
 .choice{
     display: inline-block;
     margin: 0 3rem; /* top bot 0 and left and right 3rem */
-}
-
-/*social media style */
-.social-media{
-    height: 9.37rem;
-}
-
-.social-media > li{
-    display: inline;
-    
-}
-.social-media i{
-    font-size: 160%;
-    text-align: left;
-    margin: 1%;
-    padding: 1%;
-    color: #202020;
 }
 
 /*style for hovering mouse */
