@@ -13,27 +13,23 @@
         <h1>Play Rock Paper Scissors against our Robot!</h1>
     </header>
 
-    <div class="score-board">
-        <div class="insignia"><i class="fa-solid fa-user-large"></i> User</div>
-        <div class="insignia"><i class="fa-solid fa-robot"></i>Comp(AI)</div>
-        <span id="user-score">0</span>:<span id="computer-score">0</span> 
-    </div>
-
-    <div class="result">
-        <p>Make your move</p>
-    </div>
-
-    <div class = "choices">
-        <div class="choice" id="rock">
-            <img src="assets/images/rock.png" width="200" height="200" alt="rock hand image">
-        </div>
-        <div class="choice" id="paper">
-            <img src="assets/images/paper.png" width="200" height="200" alt="paper hand image">
-        </div>
-        <div class="choice" id="scissors">
-            <img src="assets/images/scissors.png" width="200" height="200" alt="scissors hand image">
-        </div>
-    </div>
+    <main>
+        <!--Form to sign up to the martial arts classes-->
+        <section class="form-section" id="sign-up">
+            <form class="signup-form" method="GET" action="/assets/scripts/thank-you.html">
+                <h2> Signed up today! <i class="fa-regular fa-address-card"></i></h2>
+                <label for="fname">First Name: </label>
+                <input class="text-input" id="fname" name="first_name" type="text" required>
+                <br>
+                <label for="lname">Last Name: </label>
+                <input class="text-input" id="lname" name="last_name" type="text" required>
+                <br>
+                <label for="email">Email Address: </label>
+                <input class="text-input" type="email" id="email" name="email_address" required>
+                <br>
+                <input class="join-button" type="submit" value="Join us!">
+            </form>
+        </section>
     
     <footer>
 
