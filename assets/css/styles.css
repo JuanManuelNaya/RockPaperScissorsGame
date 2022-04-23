@@ -100,6 +100,7 @@ footer{
     font-weight: bold;
 }
 
+
 .choices{
     margin-top: 3rem;
     margin-bottom: 3rem;
@@ -107,6 +108,9 @@ footer{
 }
 
 .choice{
+    border: 0.2rem solid #FFFFFF;
+    border-radius: 50%;
+    padding: 0.3rem;
     display: inline-block;
     margin: 0 3rem; /* top bot 0 and left and right 3rem */
 }
