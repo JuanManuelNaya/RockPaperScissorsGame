@@ -55,7 +55,7 @@ function draw(userChoice, computerChoice){
     const userChoice_div = document.getElementById(userChoice);
     result_p.innerHTML = ` ${convertToUppercase(userChoice)} equals ${convertToUppercase(computerChoice)} . It's a draw`;
     userChoice_div.classList.add('grey-glow');
-    setTimeout(function() {userChoice_div.classList.remove('rey-glow') }, 300);
+    setTimeout(function() {userChoice_div.classList.remove('grey-glow') }, 300);
 }
 /**
  * function that saves the getComputerChoice return in a variable, and it select who wins, lose or draw depending the case
