@@ -35,14 +35,7 @@ footer{
     height: 3.125rem;
 }
 
-footer > h2{
-    color: #24272e;
-    text-align: left;
-    font-family: Roboto,sans-serif;
-    
-}
-
-footer > h4{
+footer > ul{
     color: #24272e;
     text-align: left;
     font-family: Roboto,sans-serif;
