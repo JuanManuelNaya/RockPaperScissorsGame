@@ -113,11 +113,13 @@ footer{
     padding: 0.3rem;
     display: inline-block;
     margin: 0 3rem; /* top bot 0 and left and right 3rem */
+    transition: all 0.3s ease; /* slow down timer for the transition */
 }
 
 /*style for hovering mouse */
 .choice:hover{
     cursor: pointer;
+    background: #15479e;
 }
 
 /* media querys*/
