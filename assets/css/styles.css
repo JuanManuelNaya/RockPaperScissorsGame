@@ -36,8 +36,22 @@ footer{
 }
 
 .footer-rules{
+    margin-top: 0.1rem;
+    margin-bottom: 0.1rem;
+    text-align: right;  
     color: #24272e;
-    text-align: left;
+    font-family: Roboto,sans-serif;
+}
+
+
+.social-media > li{
+    display: inline;
+}
+
+.social-media{
+    margin-top: 0.1rem;
+    margin-bottom: 0.1rem;
+    color: #24272e;
     font-family: Roboto,sans-serif;
 }
 
