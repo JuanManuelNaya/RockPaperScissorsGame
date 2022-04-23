@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap'); /* Iported from google fonts */
 
+/* General style */
 *{
     margin: 0;
     padding: 0;
@@ -15,7 +16,7 @@ body{
 a{
     text-decoration: none;
 }
-
+/* header style*/
 header{
     top:0;
     position: fixed;
@@ -72,7 +73,7 @@ footer{
     color: #24272e;
     font-family: Roboto,sans-serif;
 }
-
+/*score boar style */
 .score-board{
     margin: 4rem auto 1rem; /* top and bottom 4rem  and left and right auto and bottom 1rem*/
     border: 0.5rem solid #FFFFFF;
@@ -89,7 +90,7 @@ footer{
     color:#FFFFFF;
     font-size: 2rem;
 }
-
+/* Result style*/
 .result{
     font-size: 2.5rem;
     color: #24272e;
@@ -100,7 +101,7 @@ footer{
     font-weight: bold;
 }
 
-
+/* choices style*/
 .choices{
     margin-top: 3rem;
     margin-bottom: 3rem;
@@ -120,6 +121,23 @@ footer{
 .choice:hover{
     cursor: pointer;
     background: #15479e;
+}
+
+/* Glowing styles*/
+
+.green-glow{
+    border: 0.2rem solid #4dcc7d;
+    box-shadow: 0 0 0.6rem #31b43a;
+}
+
+.red-glow{
+    border: 0.2rem solid #fc121b;
+    box-shadow: 0 0 0.6rem #d01115;
+}
+
+.grey-glow{
+    border: 0.2rem solid #464647;
+    box-shadow: 0 0 0.6rem #25292b;
 }
 
 /* media querys*/
