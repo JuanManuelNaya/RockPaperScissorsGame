@@ -93,9 +93,9 @@ function game(userChoice){
 }
 
 /**
- * Creating function main that has evenListeners inside (clicking in some id elements will trigger the function game passing rock or paper or scissors as arguments)
+ * Creating function play that has evenListeners inside (clicking in some id elements will trigger the function game passing rock or paper or scissors as arguments)
  */
-function main(){
+function play(){
     rock_div.addEventListener('click', function (){
         game("rock"); //using function game with variable rock
     })
@@ -109,6 +109,6 @@ function main(){
     })
 }
 
-main(); // to run function main
+play(); // to run function play
 
 
