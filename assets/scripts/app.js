@@ -22,6 +22,24 @@ const scissors_div = document.getElementById("scissors");
      menu.classList.toggle('show')
  })
 
+
+ /**
+  * Blinker effect
+  */
+var messageArray = ["Play Rock Paper Scissors against our robot!"];
+var textPosition = 0;
+var speed = 100;
+
+typewriter = () => {
+    document.querySelector("#message").
+    innerHTML = messageArray[0].substring(0, textPosition) + "<span>\u25ae</span>";
+
+    if(textPosition++ != messageArray[0].length)
+        setTimeout(typewriter, speed);
+}
+
+window.addEventListener("load", typewriter)
+
 /**
  *  function that makes computer choose rock, paper or scissors
  */
