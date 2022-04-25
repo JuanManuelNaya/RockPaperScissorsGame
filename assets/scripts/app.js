@@ -13,7 +13,7 @@ const scissors_div = document.getElementById("scissors");
 
 
 /**
- * Mobile display nav
+ * Mobile display nav event listener
  */
 
  let menu = document.querySelector('nav ul')
@@ -48,7 +48,7 @@ function win(userChoice, computerChoice){
     computerScore_span.innerHTML = computerScore; //saves variable computerScore_span in html the value of computerScore in javascript
     result_p.innerHTML = ` ${convertToUppercase(userChoice)} beats ${convertToUppercase(computerChoice)} . You win!`;
     userChoice_div.classList.add('green-glow');
-    setTimeout(function() {userChoice_div.classList.remove('green-glow') }, 300);
+    setTimeout(function() {userChoice_div.classList.remove('green-glow') }, 350);
 }
 
 

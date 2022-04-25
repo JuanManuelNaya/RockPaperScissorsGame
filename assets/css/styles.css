@@ -16,6 +16,11 @@ body{
 a{
     text-decoration: none;
 }
+
+/* blinker effect*/
+span{
+    animation: blinker 1s linear infinite;
+}
 /* header style*/
 header{
     top:0;
