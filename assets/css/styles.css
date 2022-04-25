@@ -18,7 +18,7 @@ a{
 }
 
 /* blinker effect*/
-span{
+nav div span{
     animation: blinker 1s linear infinite;
 }
 
