@@ -21,6 +21,14 @@ a{
 span{
     animation: blinker 1s linear infinite;
 }
+
+@keyframes blinker{
+    50%{
+        opacity: 0;
+    }
+
+}
+
 /* header style*/
 header{
     top:0;
