@@ -26,7 +26,7 @@ const scissors_div = document.getElementById("scissors");
  /**
   * Blinker effect
   */
-var messageArray = ["Play Rock Paper Scissors against our robot!"];
+var messageArray = ["Play Rock Paper Scissors!"];
 var textPosition = 0;
 var speed = 100;
 
