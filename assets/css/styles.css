@@ -52,8 +52,13 @@ footer{
     height: 3.125rem;
 }
 
+/* mobile*/
 .mobile{
     display: none;
+}
+.show{
+    display: block;
+    height: 15rem;
 }
 .footer-rules{
     margin-top: 0.1rem;
@@ -158,6 +163,7 @@ footer{
     }
 
     nav ul{
+        display: none;
         width: 100%;
         background-color: #FFFFFF;
         position: absolute;
