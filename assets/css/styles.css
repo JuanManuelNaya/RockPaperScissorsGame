@@ -25,9 +25,12 @@ header{
     height: 3.125rem;
     padding-bottom: 2rem;
 }
-/*This one is not working */
-nav ul li{
-    display: inline;
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
 }
 
 /* footer style*/
