@@ -71,7 +71,7 @@ function draw(userChoice, computerChoice){
 /**
  * function that saves the getComputerChoice return in a variable, and it select who wins, lose or draw depending the case
  */
-function game(userChoice){
+function gameRockPaperScissors(userChoice){
     const computerChoice = getComputerChoice();
     switch (userChoice + computerChoice){ 
         case "rockscissors":
@@ -97,15 +97,15 @@ function game(userChoice){
  */
 function play(){
     rock_div.addEventListener('click', function (){
-        game("rock"); //using function game with variable rock
+        gameRockPaperScissors("rock"); //using function gameRockPaperScissors with variable rock
     })
     
     paper_div.addEventListener('click', function (){
-        game("paper"); //using function game variable paper
+        gameRockPaperScissors("paper"); //using function gameRockPaperScissors variable paper
     })
     
     scissors_div.addEventListener('click', function (){
-        game("scissors"); //using function game variable scissors
+        gameRockPaperScissors("scissors"); //using function gameRockPaperScissors variable scissors
     })
 }
 
