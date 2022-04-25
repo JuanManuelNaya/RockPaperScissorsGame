@@ -11,6 +11,17 @@ const rock_div = document.getElementById("rock");
 const paper_div = document.getElementById("paper");
 const scissors_div = document.getElementById("scissors");
 
+
+/**
+ * Mobile display nav
+ */
+
+let menu = document.querySelector('nav ul')
+let hamburger = document.querySelector('nav .mobile')
+hamburger.addEventListener('click', function(){
+    menu.classList.toggle.apply('show')
+})
+
 /**
  *  function that makes computer choose rock, paper or scissors
  */
