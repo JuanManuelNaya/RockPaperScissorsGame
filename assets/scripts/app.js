@@ -3,12 +3,12 @@
  */
 let userScore = 0;
 let computerScore = 0;
-const userScore_span = document.getElementById("user-score");
-const computerScore_span = document.getElementById("computer-score");
-const result_p = document.querySelector(".result > p");
-const rock_div = document.getElementById("rock");
-const paper_div = document.getElementById("paper");
-const scissors_div = document.getElementById("scissors");
+let userScore_span = document.getElementById("user-score");
+let computerScore_span = document.getElementById("computer-score");
+let result_p = document.querySelector(".result > p");
+let rock_div = document.getElementById("rock");
+let paper_div = document.getElementById("paper");
+let scissors_div = document.getElementById("scissors");
 
 
 /**
@@ -25,9 +25,9 @@ const scissors_div = document.getElementById("scissors");
  /**
   * Blinker effect
   */
-var messageArray = ["Play Rock Paper Scissors!"];
-var textPosition = 0;
-var speed = 100;
+let messageArray = ["Play Rock Paper Scissors!"];
+let textPosition = 0;
+let speed = 100;
 
 
  function typewriter () {  /*typewriter = () =>*/ 
