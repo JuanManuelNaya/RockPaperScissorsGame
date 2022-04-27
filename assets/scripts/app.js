@@ -5,7 +5,6 @@ let userScore = 0;
 let computerScore = 0;
 const userScore_span = document.getElementById("user-score");
 const computerScore_span = document.getElementById("computer-score");
-const scoreBoard_div = document.querySelector(".score-board");
 const result_p = document.querySelector(".result > p");
 const rock_div = document.getElementById("rock");
 const paper_div = document.getElementById("paper");
@@ -16,11 +15,11 @@ const scissors_div = document.getElementById("scissors");
  * Mobile display nav event listener
  */
 
- let menu = document.querySelector('nav ul')
- let door = document.querySelector('nav .mobile')
+ let menu = document.querySelector('nav ul');
+ let door = document.querySelector('nav .mobile');
  door.addEventListener('click', function(){
-     menu.classList.toggle('show')
- })
+     menu.classList.toggle('show');
+ });
 
 
  /**
@@ -31,13 +30,13 @@ var textPosition = 0;
 var speed = 100;
 
 
-typewriter = () => { 
+ function typewriter () {  /*typewriter = () =>*/ 
     document.querySelector("#message").
     innerHTML = messageArray[0].substring(0, textPosition) + "<span>\u25ae</span>";
     
     if(textPosition++ != messageArray[0].length)
         setTimeout(typewriter, speed);
-}
+};
 
 /*window.addEventListener("load", typewriter)*/
 function initializeGame() {
@@ -121,15 +120,15 @@ function gameRockPaperScissors(userChoice){
 function play(){
     rock_div.addEventListener('click', function (){
         gameRockPaperScissors("rock"); //using function gameRockPaperScissors with variable rock
-    })
+    });
     
     paper_div.addEventListener('click', function (){
         gameRockPaperScissors("paper"); //using function gameRockPaperScissors variable paper
-    })
+    });
     
     scissors_div.addEventListener('click', function (){
         gameRockPaperScissors("scissors"); //using function gameRockPaperScissors variable scissors
-    })
+    });
 }
 
 
