@@ -30,16 +30,21 @@ var messageArray = ["Play Rock Paper Scissors!"];
 var textPosition = 0;
 var speed = 100;
 
-typewriter = () => {
+
+typewriter = () => { 
     document.querySelector("#message").
     innerHTML = messageArray[0].substring(0, textPosition) + "<span>\u25ae</span>";
-
+    
     if(textPosition++ != messageArray[0].length)
         setTimeout(typewriter, speed);
 }
 
-window.addEventListener("load", typewriter)
-
+/*window.addEventListener("load", typewriter)*/
+function initializeGame() {
+    play();
+    typewriter();
+ }
+ window.addEventListener("load", initializeGame);
 /**
  *  function that makes computer choose rock, paper or scissors
  */
@@ -127,6 +132,6 @@ function play(){
     })
 }
 
-play(); // to run function play
+
 
 
