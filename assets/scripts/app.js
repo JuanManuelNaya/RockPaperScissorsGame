@@ -3,12 +3,12 @@
  */
 let userScore = 0;
 let computerScore = 0;
-let userScore_span = document.getElementById("user-score");
-let computerScore_span = document.getElementById("computer-score");
-let result_p = document.querySelector(".result > p");
-let rock_div = document.getElementById("rock");
-let paper_div = document.getElementById("paper");
-let scissors_div = document.getElementById("scissors");
+let userScoreSpan = document.getElementById("user-score");
+let computerScoreSpan = document.getElementById("computer-score");
+let resultP = document.querySelector(".result > p");
+let rockDiv = document.getElementById("rock");
+let paperDiv = document.getElementById("paper");
+let scissorsDiv = document.getElementById("scissors");
 
 
 /**
@@ -67,32 +67,32 @@ function convertToUppercase(letter){
 /**
  * function that increase score for user in case it wins
  * increase userScore variable
- * saves variable userScore_span in html the value of userScore in javascript
- * saves variable computerScore_span in html the value of computerScore in javascript
+ * saves variable userScoreSpan in html the value of userScore in javascript
+ * saves variable computerScoreSpan in html the value of computerScore in javascript
  * update result and glow green
  */
 function win(userChoice, computerChoice){ 
     let userChoice_div = document.getElementById(userChoice);
     userScore++; 
-    userScore_span.innerHTML = userScore; 
-    computerScore_span.innerHTML = computerScore; 
-    result_p.innerHTML = ` ${convertToUppercase(userChoice)} beats ${convertToUppercase(computerChoice)} . You win!`;
+    userScoreSpan.innerHTML = userScore; 
+    computerScoreSpan.innerHTML = computerScore; 
+    resultP.innerHTML = ` ${convertToUppercase(userChoice)} beats ${convertToUppercase(computerChoice)} . You win!`;
     userChoice_div.classList.add('green-glow');
     setTimeout(function() {userChoice_div.classList.remove('green-glow') }, 350);
 }
 
 /** lose function 
  *   increase computerScore variable 
- * saves variable userScore_span in html the value of userScore in javascript 
- *  saves variable computerScore_span in html the value of computerScore in javascript
+ * saves variable userScoreSpan in html the value of userScore in javascript 
+ *  saves variable computerScoreSpan in html the value of computerScore in javascript
  *  Update Result and glow red
  */
 function lose(userChoice, computerChoice){
     let userChoice_div = document.getElementById(userChoice);
     computerScore++; 
-    userScore_span.innerHTML = userScore; 
-    computerScore_span.innerHTML = computerScore; 
-    result_p.innerHTML = ` ${convertToUppercase(userChoice)} loses to ${convertToUppercase(computerChoice)} . You lost!`;
+    userScoreSpan.innerHTML = userScore; 
+    computerScoreSpan.innerHTML = computerScore; 
+    resultP.innerHTML = ` ${convertToUppercase(userChoice)} loses to ${convertToUppercase(computerChoice)} . You lost!`;
     userChoice_div.classList.add('red-glow');
     setTimeout(function() {userChoice_div.classList.remove('red-glow') }, 300);
 }
@@ -103,7 +103,7 @@ function lose(userChoice, computerChoice){
  */
 function draw(userChoice, computerChoice){
     let userChoice_div = document.getElementById(userChoice);
-    result_p.innerHTML = ` ${convertToUppercase(userChoice)} equals ${convertToUppercase(computerChoice)} . It's a draw`;
+    resultP.innerHTML = ` ${convertToUppercase(userChoice)} equals ${convertToUppercase(computerChoice)} . It's a draw`;
     userChoice_div.classList.add('grey-glow');
     setTimeout(function() {userChoice_div.classList.remove('grey-glow') }, 300);
 }
@@ -128,6 +128,8 @@ function gameRockPaperScissors(userChoice){
         case "paperpaper":
             draw(userChoice, computerChoice); // function draw
             break;
+        default:
+            "There was an error, please contact the support team"
     }
 }
 
@@ -138,15 +140,15 @@ function gameRockPaperScissors(userChoice){
  * using function gameRockPaperScissors variable scissors
  */
 function play(){
-    rock_div.addEventListener('click', function (){
+    rockDiv.addEventListener('click', function (){
         gameRockPaperScissors("rock"); 
     });
     
-    paper_div.addEventListener('click', function (){
+    paperDiv.addEventListener('click', function (){
         gameRockPaperScissors("paper"); 
     });
     
-    scissors_div.addEventListener('click', function (){
+    scissorsDiv.addEventListener('click', function (){
         gameRockPaperScissors("scissors"); 
     });
 }
