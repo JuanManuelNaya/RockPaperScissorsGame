@@ -36,7 +36,7 @@ function typewriter() {
 
     if (textPosition++ != messageArray[0].length)
         setTimeout(typewriter, speed);
-};
+}
 
 /**
  * window.addEventListener("load", typewriter)
@@ -79,7 +79,7 @@ function win(userChoice, computerChoice) {
     resultP.innerHTML = ` ${convertToUppercase(userChoice)} beat ${convertToUppercase(computerChoice)} . You win!`;
     userChoice_div.classList.add('green-glow');
     setTimeout(function () {
-        userChoice_div.classList.remove('green-glow')
+        userChoice_div.classList.remove('green-glow');
     }, 350);
 }
 
@@ -97,7 +97,7 @@ function lose(userChoice, computerChoice) {
     resultP.innerHTML = ` ${convertToUppercase(userChoice)} losses to ${convertToUppercase(computerChoice)} . You lost!`;
     userChoice_div.classList.add('red-glow');
     setTimeout(function () {
-        userChoice_div.classList.remove('red-glow')
+        userChoice_div.classList.remove('red-glow');
     }, 300);
 }
 
@@ -110,7 +110,7 @@ function draw(userChoice, computerChoice) {
     resultP.innerHTML = ` ${convertToUppercase(userChoice)} equals ${convertToUppercase(computerChoice)} . It's a draw`;
     userChoice_div.classList.add('grey-glow');
     setTimeout(function () {
-        userChoice_div.classList.remove('grey-glow')
+        userChoice_div.classList.remove('grey-glow');
     }, 300);
 }
 /**
@@ -135,7 +135,7 @@ function gameRockPaperScissors(userChoice) {
             draw(userChoice, computerChoice); // function draw
             break;
         default:
-            "There was an error, please contact the support team"
+            return "There was an error, please contact the support team";
     }
 }
 
