@@ -94,7 +94,13 @@
 
 6. ## Wireframes
  
-* To do a wireframe for this website I use the program Balsamic.
+* To do a wireframe for this website I use the program Balsamiq.
+
+* Desktop Wireframe
+> ![desktop](/docs/DesktopWireframe.JPG)
+
+* Mobile Wireframe
+> ![mobile](/docs/MobieWireframe.JPG)
 
 7. ## Technologies
  
