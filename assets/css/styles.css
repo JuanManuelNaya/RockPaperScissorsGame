@@ -1,37 +1,38 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap'); /* Iported from google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+/* Iported from google fonts */
 
 /* General style */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
-    background-color:#759EF4 ;
+body {
+    background-color: #759EF4;
     font-family: Roboto, sans-serif;
     width: 100%;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
 /* blinker effect*/
-nav div span{
+nav div span {
     animation: blinker 1s linear infinite;
 }
 
-@keyframes blinker{
-    50%{
+@keyframes blinker {
+    50% {
         opacity: 0;
     }
 
 }
 
 /* header style*/
-header{
-    top:0;
+header {
+    top: 0;
     position: fixed;
     width: inherit;
     background: #FFFFFF;
@@ -40,25 +41,25 @@ header{
 }
 
 /*Style nav */
-nav{
+nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 0 auto;
 }
 
-nav ul li{
+nav ul li {
     display: inline;
     padding: 0 1rem;
 }
 
-nav ul li a{
+nav ul li a {
     color: #24272e;
 }
 
 /* footer style*/
-footer{
-    bottom:0;
+footer {
+    bottom: 0;
     position: fixed;
     width: inherit;
     background: #FFFFFF;
@@ -66,140 +67,148 @@ footer{
 }
 
 /* mobile*/
-.mobile{
+.mobile {
     display: none;
 }
-.show{
+
+.show {
     display: block;
     height: 15rem;
 }
-.footer-rules{
+
+.footer-rules {
     margin-top: 0.1rem;
     margin-bottom: 0.1rem;
-    text-align: right;  
+    text-align: right;
     color: #24272e;
-    font-family: Roboto,sans-serif;
+    font-family: Roboto, sans-serif;
 }
 
 /*Social media style */
-.social-media a{
+.social-media a {
     margin-top: 0.1rem;
     margin-bottom: 0.1rem;
     color: #24272e;
-    font-family: Roboto,sans-serif;
+    font-family: Roboto, sans-serif;
     font-size: 150%;
 }
 
 /*Form style */
-.signup-form{
+.signup-form {
     color: #24272e;
-    font-family: Roboto,sans-serif;
+    font-family: Roboto, sans-serif;
     text-align: center;
     padding: 3rem;
     margin-top: 5rem;
 }
+
 /*score boar style */
-.score-board{
-    margin: 4rem auto 1rem; /* top and bottom 4rem  and left and right auto and bottom 1rem*/
+.score-board {
+    margin: 4rem auto 1rem;
+    /* top and bottom 4rem  and left and right auto and bottom 1rem*/
     border: 0.5rem solid #FFFFFF;
     border-radius: 0.25rem;
     text-align: center;
-    width: 12rem; 
-    color:#FFFFFF;
+    width: 12rem;
+    color: #FFFFFF;
     font-size: 2.5rem;
     padding: 0.5rem 1.25rem;
 }
 
-.insignia{
+.insignia {
     background: #24272e;
-    color:#FFFFFF;
+    color: #FFFFFF;
     font-size: 2rem;
 }
+
 /* Result style*/
-.result{
+.result {
     font-size: 2.5rem;
     color: #24272e;
 }
 
-.result > p {
+.result>p {
     text-align: center;
     font-weight: bold;
 }
 
 /* choices style*/
-.choices{
+.choices {
     margin-top: 3rem;
     margin-bottom: 3rem;
-    text-align: center;  
+    text-align: center;
 }
 
-.choice{
+.choice {
     border: 0.2rem solid #FFFFFF;
     border-radius: 50%;
     padding: 0.3rem;
     display: inline-block;
-    margin: 0 3rem; /* top bot 0 and left and right 3rem */
-    transition: all 0.3s ease; /* slow down timer for the transition */
+    margin: 0 3rem;
+    /* top bot 0 and left and right 3rem */
+    transition: all 0.3s ease;
+    /* slow down timer for the transition */
 }
 
 /*style for hovering mouse */
-.choice:hover{
+.choice:hover {
     cursor: pointer;
     background: #15479e;
 }
 
 /* Glowing styles*/
 
-.green-glow{
+.green-glow {
     border: 0.2rem solid #4dcc7d;
     box-shadow: 0 0 0.6rem #31b43a;
 }
 
-.red-glow{
+.red-glow {
     border: 0.2rem solid #fc121b;
     box-shadow: 0 0 0.6rem #d01115;
 }
 
-.grey-glow{
+.grey-glow {
     border: 0.2rem solid #464647;
     box-shadow: 0 0 0.6rem #25292b;
 }
 
 /* media querys*/
 /* Navegation for mobile size */
-@media(max-width:48rem){
-    nav{
+@media(max-width:48rem) {
+    nav {
         position: static;
     }
 
-    nav ul{
+    nav ul {
         display: none;
         width: 100%;
         background-color: #FFFFFF;
         position: absolute;
         top: 3.125rem;
-        left:0;
-        right:0;
+        left: 0;
+        right: 0;
         height: 40vh;
         text-align: center;
 
     }
 
-    nav ul li{
+    nav ul li {
         display: block;
     }
 
-    a.mobile{
+    a.mobile {
         color: #24272e;
         display: block;
         font-size: 2rem;
     }
-    .footer-rules{
+
+    .footer-rules {
         margin-top: 0.1rem;
         margin-bottom: 0.1rem;
-        text-align: right;  
+        text-align: right;
         color: #24272e;
-        font-family: Roboto,sans-serif;
+        font-family: Roboto, sans-serif;
         font-size: x-small;
     }
 }
