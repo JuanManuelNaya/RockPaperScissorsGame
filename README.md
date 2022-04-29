@@ -131,13 +131,14 @@ after:
 
 10. ## Validator Testing
  
--HTML
+    [HTML](/docs/htmlValidation.JPG)
     -No errors were found when passing through the official W3C HTML validator.
- 
--CSS
+
+    [CSS](/docs/validationCSS.JPG)
     -No errors were found when passing through the official  W3C CSS validator.
 
--JavaScript
+
+    [JavaScript](/docs/javascript%20validation.JPG)
     -No errors were found when passing through the jshint website.
  
 -Accessibility
