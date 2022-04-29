@@ -4,7 +4,7 @@
 
 * The Play Rock Paper Scissors against our Robot!, is a website that users can use to play a game of rock paper scissors, the purpose can be just for fun.
 
-![Responsive](/assets/docs/responsive.JPG)
+![Responsive](/docs/Responsive.JPG)
 
 2. ## User Stories
 
@@ -19,15 +19,17 @@
 
 * **Header**
 
-![Header](/assets/docs/header.JPG)
+![Header](/docs/heder.JPG)
 
-* The header presents the website with the title "Play Rock Paper Scissors against our Robot!" , wich explain very clearly the purpose of the website.
+* On the left side of the header he have the title that say's "Play Rock Paper Scissors!" , wich explain very clearly the purpose of the website.
+* The title will be displayed with a text machine effect.
+* On the right side of the header we have a contact us section, in case the user want to send a message to the creators of the website.
 * The title blackground contrast well against the font color making it very easy to read.
 * The header area fulfills its purpose.
 
 * **Score Board**
 
-![ScoreBoard](/assets/docs/score-board.JPG)
+![ScoreBoard](/docs/scoreBoard.JPG)
 
 * This section will show the score of the user vs the robot, it will update in every single round.
 * The background color contraste with the font color make in it very easy to read.
@@ -35,7 +37,7 @@
 
 * **Result**
 
-![Result](/assets/docs/Result.JPG)
+![Result](/docs/message.JPG)
 
 * This result section, initially will say "Make your move".
 *  will update in each round depending on the result saying the following messages:
@@ -54,17 +56,20 @@
 
 * **GameOptions**
 
-![GameOptions](/assets/docs/GameOptions.JPG)
+![GameOptions](/docs/Options.JPG)
 
 * This sections consist of three round images in the shape of button.
 * The user can chose his move between rock, paper or scissors.
+* When the user hover the mouse on one of these options it will have a darker tone of blue.
+* When the user wins a game it will glow green, when the user lose a game it will glow red and if the user loses it will glow grey.
 * The Game Options area fulfills its purpose.
 
 * **Footer**
 
-![footer](/assets/docs/footer.JPG)
+![footer](/docs/footer.JPG)
 
-* This section has the rules of the game wich area "Rock blunts Scissors | Paper covers Rock | Scissors cut Pappe".
+* On the right side of the footer we have the rules of the game wich area "Rock blunts Scissors | Paper covers Rock | Scissors cut Pappe".
+* On the left side of the footer we have the different social media.
 * The background color contrast with the font color make in it very easy to read.
 * The footer section fulfills its purpose.
 
@@ -131,7 +136,7 @@ after:
     -Input: Player open website see header title "Play Rock Paper Scissors", then he moves the mouse to one of the three images of rock paper or scissors, click on it, then it will light up green if you win, grey if it is a draw, and red if you lose.
     -Output: Player will see the score of him vs robot as a result on the score board on top of the images with the message from the last raound stating if it was win, loss or draw.
 
-![Accesibility](/assets/docs/Accesibility.JPG)
+![Accesibility](/docs/LightHouse.JPG)
 
 11. ## Deployment
  
@@ -161,7 +166,9 @@ after:
  Font source: [Font Awesome](https://fontawesome.com/search?q=sort&m=free)
 
  Image source: [googleimages](https://www.google.ie/imghp?hl=en&tab=ri&authuser=0&ogbl)
-              [Clipartmax](https://www.clipartmax.com/)
+               [Clipartmax](https://www.clipartmax.com/)
 
  Website was inspired by [FreeCodeCamp](https://www.youtube.com/watch?v=jaVNP3nIAv0)
+
+ Code for the social media taken from [CodeInstitute](https://learn.codeinstitute.net/ci_program/diplomainsoftwaredevelopmentecommerce)
 
