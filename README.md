@@ -88,11 +88,11 @@
 
 7. ## Technologies
  
-* GitHub
-* GitPod
-* HTML
-* CSS
-* JavaScript
+* GitHub (server backing up my project, create deployed and live links)
+* GitPod (work enviroment)
+* HTML to give structure to the website (header, body , footer , divs , lists , anchortag etc)
+* CSS to style my website (background color, font style and sizes etc)
+* JavaScript to create interactivity on my website (header message , game mechanic of game rock papper scissors)
 
 8. ## Testing
  
