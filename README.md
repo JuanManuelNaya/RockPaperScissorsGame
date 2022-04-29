@@ -127,6 +127,10 @@ after:
 -Accessibility
     -I confirm that the colors and fonts chosen are easy to read and accessible by running it through lighthouse in dev tools
 
+-Playing a game of Rock Paper Scissors
+    -Input: Player open website see header title "Play Rock Paper Scissors", then he moves the mouse to one of the three images of rock paper or scissors, click on it, then it will light up green if you win, grey if it is a draw, and red if you lose.
+    -Output: Player will see the score of him vs robot as a result on the score board on top of the images with the message from the last raound stating if it was win, loss or draw.
+
 ![Accesibility](/assets/docs/Accesibility.JPG)
 
 11. ## Deployment
