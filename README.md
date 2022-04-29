@@ -120,6 +120,9 @@ after:
  
 -CSS
     -No errors were found when passing through the official  W3C CSS validator.
+
+-JavaScript
+    -No errors werefound when passing through jshint website.
  
 -Accessibility
     -I confirm that the colors and fonts chosen are easy to read and accessible by running it through lighthouse in dev tools
@@ -143,16 +146,18 @@ after:
     Click on it, then press open.
     - It opens a workplace, this workplace allows the user: to create files, code in different programming languages, use commands on the terminal to do many different things such as display a website with the code that we use and see how it looks.
 
-    **Deployed link to the site:** [RockPaperScissorsGame](https://juanmanuelnaya.github.io/RockPaperScissorsGame/)
+12.  ## Deployed link
+     Deployed link to the site: [RockPaperScissorsGame](https://juanmanuelnaya.github.io/RockPaperScissorsGame/)
 
-    **Live link to the project from GitHub:** [RockPaperScissorsGame](https://github.com/JuanManuelNaya/RockPaperScissorsGame)
+13. ## Live link to the project
+  Live link to the project from GitHub: [RockPaperScissorsGame](https://github.com/JuanManuelNaya/RockPaperScissorsGame)
 
-    12. ## Credits
+14. ## Credits
 
-    Font source: [Font Awesome](https://fontawesome.com/search?q=sort&m=free)
+ Font source: [Font Awesome](https://fontawesome.com/search?q=sort&m=free)
 
-    Image source: [googleimages](https://www.google.ie/imghp?hl=en&tab=ri&authuser=0&ogbl)
-                  [Clipartmax](https://www.clipartmax.com/)
+ Image source: [googleimages](https://www.google.ie/imghp?hl=en&tab=ri&authuser=0&ogbl)
+              [Clipartmax](https://www.clipartmax.com/)
 
-    Website was inspired by [FreeCodeCamp](https://www.youtube.com/watch?v=jaVNP3nIAv0)
+ Website was inspired by [FreeCodeCamp](https://www.youtube.com/watch?v=jaVNP3nIAv0)
 
