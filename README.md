@@ -6,6 +6,11 @@
 
 ![Responsive](/docs/Responsive.JPG)
 
+
+* ## Ready Website
+
+![ReadyWebsite](/docs/readyWebsite.JPG)
+
 2. ## User Stories
 
 * As a user, I want to play a game.
